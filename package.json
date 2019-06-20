@@ -1,0 +1,24 @@
+{
+  "name": "ts-node-test",
+  "description": "Testing if I can run TypeScript directly from GitHub via npx",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bin": "./src/cli.ts",
+  "bugs": {
+    "url": "https://github.com/pdehaan/ts-node-test/issues"
+  },
+  "dependencies": {
+    "ts-node": "^8.3.0"
+  },
+  "homepage": "https://github.com/pdehaan/ts-node-test#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "./src/lib.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/ts-node-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
